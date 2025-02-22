@@ -1,0 +1,20 @@
+[project]
+name ="post_quantum_hybrid_encryption"
+requires-python = ">=3.9"
+version = "0.1.0"
+description = "A post-quantum hybrid encryption prototype for secure communications."
+authors = [
+    { name = "Semsion", email = "semsiono@gmail.com" },
+]
+readme = "README.md"
+dependencies = [
+    "cryptography>=44"
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.urls]
+homepage = "https://github.com/semsion/post-quantum-hybrid-encryption"
+repository = "https://github.com/semsion/post-quantum-hybrid-encryption.git"

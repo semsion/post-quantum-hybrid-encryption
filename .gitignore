@@ -1,0 +1,40 @@
+# Byte-compiled files and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environment directories
+.venv/
+venv/
+ENV/
+
+# dotenv
+.env
+
+# IDE / Editor files
+.idea/
+*.swp
+
+# uv
+uv.lock
+
+# Miscellaneous
+.history
