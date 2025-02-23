@@ -62,11 +62,13 @@ If `liboqs` is not found at runtime by `liboqs-python`, it will be automatically
 
 Other methods of installation, including utilising Docker, and building the C library from source, can be observed by visiting the liboqs Python bindings repository [here](https://github.com/open-quantum-safe/liboqs-python).
 
-### Install the wrapper and dependencies
+### Install this application and dependencies
 
 Execute in a Terminal/Console/Administrator Command Prompt
 
 ```shell
+git clone --depth=1 https://github.com/semsion/post-quantum-hybrid-encryption
+cd post-quantum-hybrid-encryption
 pip install .
 ```
 
